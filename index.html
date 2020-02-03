@@ -1,0 +1,93 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+    <meta name="description" content="todo">
+    <meta name="author" content="Diana Velichkova">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <span>Diana Velichkova</span>
+            <button id="menu-toggle" onclick="this.classList.toggle('active')">
+                <svg class="menu-toggle-inner" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                    <path
+                          class="line top"
+                          d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                    <path
+                          class="line middle"
+                          d="m 30,50 h 40" />
+                    <path
+                          class="line bottom"
+                          d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                  </svg>
+            </button>
+            <nav>
+                <ul>
+                    <li class="active"><a href="#">Work</a></li class="active">
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="certificates.html">Certificates</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="slider">
+                <input type="radio" name="slider" id="s1">
+                <input type="radio" name="slider" id="s2">
+                <input type="radio" name="slider" id="s3">
+                <input type="radio" name="slider" id="s4" checked>
+                <input type="radio" name="slider" id="s5">
+                <input type="radio" name="slider" id="s6">
+                <input type="radio" name="slider" id="s7">
+                <label for="s1" id="slide1"></label>
+                <label for="s2" id="slide2"></label>
+                <label for="s3" id="slide3"></label>
+                <label for="s4" id="slide4"></label>
+                <label for="s5" id="slide5"></label>
+                <label for="s6" id="slide6"></label>
+                <label for="s7" id="slide7"></label>
+            </section>
+
+            <div class="entry">
+                <div class="entry-inner">
+                    <img src="images/coffee.png" alt="Coffee">
+                    <p>A redesign of an ad for <b>'Sofia Coffee Festival'</b> as an assignment for a <b>Photoshop</b> course.</p>
+                </div>
+            </div>
+
+            <div class="entries-inline">
+                <div class="entry">
+                    <div class="entry-inner">
+                        <img src="images/Firefly.png" alt="Firefly">
+                        <p><span>A design for logo for a yoga studio done in InDesign.
+                            The name of the studio is <b>'Firefly'</b>, they wanted to have a lotus flower as the main
+                            point of the logo design with the moto 'Ignite. Thrive. Shine.' incorporated in it. </span></p>
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="entry-inner">
+                        <img src="images/Cloudigen.png" alt="Cloudigen">
+                        <p><span>A redesign of an ad for <b>'Sofia Coffee Festival'</b> as an assignment for a <b>Photoshop</b> course.</span></p>
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="entry-inner">
+                        <img src="images/ZenBlend.png" alt="ZenBlend">
+                        <p><span>A redesign of an ad for <b>'Sofia Coffee Festival'</b> as an assignment for a <b>Photoshop</b> course.</span></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
