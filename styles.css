@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-tap-highlight-color: transparent;
 }
 
 @font-face {
@@ -214,6 +215,33 @@ h1 {
 
 .subskills:first-of-type {
     margin-right: 60px;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 650px;
+    margin-bottom: 50px;
+}
+
+.aboutme div {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.aboutme~p,
+.aboutme~ul li {
+    font-family: 'Bodoni';
+}
+
+.aboutme+p {
+    max-width: 650px;
+    margin-bottom: 10px;
+}
+
+.aboutme~ul {
+    margin: 5px 0 0 18px;
 }
 
 main>.entry img {
@@ -530,5 +558,13 @@ main.certificates img {
     #slider label {
         width: 238px;
         height: 335px;
+    }
+    .aboutme img {
+        width: 90px;
+        margin-right: 10px;
+    }
+    .aboutme div {
+        font-weight: bold;
+        font-size: 1em;
     }
 }
